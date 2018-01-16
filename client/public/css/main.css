@@ -4,8 +4,13 @@
 
 @media (max-width: 40em) {
     .top-bar {
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .top-bar-left {
@@ -30,8 +35,12 @@
 
 .menu,
 .menu a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #ffc857;
 }
 
@@ -103,8 +112,13 @@
 .landing-list {
     margin-top: 2em;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .fa-check-square {
@@ -156,7 +170,8 @@
     padding: 0.5em 0.75em;
     background-color: #ffc857;
     color: #084c61;
-    box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.4);
 }
 
 .fixed-action-btn i {
