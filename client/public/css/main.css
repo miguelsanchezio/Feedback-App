@@ -1,0 +1,197 @@
+.top-bar {
+    background-color: #084c61;
+}
+
+@media (max-width: 40em) {
+    .top-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-bar-left {
+        margin-bottom: 0.5em;
+    }
+}
+
+.fa-envelope {
+    margin-left: 15px;
+    margin-right: 7px;
+}
+
+.top-bar ul {
+    background-color: #084c61;
+}
+
+.top-bar-left a {
+    color: #ffc857;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.menu,
+.menu a {
+    display: flex;
+    align-items: center;
+    color: #ffc857;
+}
+
+.menu li:not(last-child) {
+    margin-right: 0.7em;
+}
+
+.button,
+.button:focus,
+.button:active,
+.button:visited {
+    background-color: #ffc857;
+    color: #084c61;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #084c61;
+}
+
+.cancel,
+.cancel:link,
+.cancel:active,
+.cancel:visited {
+    background-color: #c94b3d;
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+.cancel:hover {
+    color: #fff;
+}
+
+.next:hover {
+    background-color: #ffc857;
+}
+
+.next:focus {
+    background-color: #ffc857;
+    color: #084c61;
+}
+
+.credits {
+    font-size: 14px;
+}
+
+.grid-container {
+    margin-top: 2em;
+}
+
+.landing-container {
+    max-width: 80%;
+    height: 75vh;
+    margin: 3em auto 0 auto;
+    text-align: center;
+    color: #084c61;
+}
+
+.landing-title {
+    font-size: 5em;
+    font-weight: bold;
+    line-height: initial;
+}
+
+.landing-title-sub {
+    font-size: 2em;
+}
+
+.landing-list {
+    margin-top: 2em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-check-square {
+    margin-right: 5px;
+    color: #ffc857;
+}
+
+.landing-button,
+.landing-button:link,
+.landing-button:visited,
+.landing-button:hover,
+.landing-button:active,
+.landing-button:focus {
+    display: inline-block;
+    background-color: #ffc857;
+    color: #084c61;
+    padding: .5em 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: .5em;
+}
+
+.card {
+    margin: 0 auto 1.5em auto;
+    width: 80%;
+    border: 1px solid #084c61;
+    color: #323232;
+}
+
+.card-divider {
+    background-color: #084c61;
+    color: #ffc857;
+}
+
+.date {
+    font-size: 12px;
+    color: #656565;
+}
+
+.label:not(:last-child) {
+    margin-right: 0.5em;
+}
+
+.fixed-action-btn {
+    font-size: 14px;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    padding: 0.5em 0.75em;
+    background-color: #ffc857;
+    color: #084c61;
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.fixed-action-btn i {
+    margin-left: 0.5em;
+}
+
+.form-container {
+    margin: 0 auto 1.5em auto;
+    width: 80%;
+}
+
+.surveyField {
+    margin-bottom: 0.5em;
+}
+
+.form-label {
+    color: #656565;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.red-text {
+    color: red;
+    font-size: 10px;
+}
+
+.entries {
+    margin-bottom: 0.5em;
+}
+
+.footer-container {
+    margin: 2em auto;
+    font-size: 12px;
+    text-align: center;
+}

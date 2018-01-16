@@ -2,12 +2,12 @@ import React from 'react';
 
 export default ({ input, label, meta: { error, touched } }) => {
     return (
-        <div>
-            <label>{label}</label>
-            <input {...input} style={{ marginBottom: '5px' }}/>
-            <div className='red-text' style={{marginBottom: '20px'}}>
+        <div className="surveyField">
+            <label className="form-label">{label}</label>
+            <input className="form-input" {...input} />
+            <div className="red-text">
                 {touched && error}
             </div>
         </div>
-    );
+    )
 };
